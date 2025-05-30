@@ -8,7 +8,7 @@ from telegram.ext import (
 )
 
 # --- Cấu hình ---
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "7963250637:AAGdMqGj2KTwdNeNOhG7PRnqB6J_EDl6VPo"
 USERS_FILE = "users.json"
 ADMIN_PASSWORD = "adminpass"
 MAX_BET = 1_000_000_000
