@@ -6,7 +6,8 @@ from telegram.ext import (
     Updater, CommandHandler, MessageHandler, Filters,
     ConversationHandler, CallbackContext
 )
-
+import os
+TOKEN = os.getenv("TOKEN")
 # --- Cấu hình ---
 TOKEN = "7963250637:AAGdMqGj2KTwdNeNOhG7PRnqB6J_EDl6VPo"
 USERS_FILE = "users.json"
